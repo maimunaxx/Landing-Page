@@ -117,3 +117,24 @@ li, .paragraphone{
     font-size: 18px;
     font-weight: 800;
 }
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+.blue{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    min-width: 600px;
+    margin: 8px;
+}
+.buttontwo{
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    margin:18px;
+    min-width: 70px;
+    align-items: center;
+}
