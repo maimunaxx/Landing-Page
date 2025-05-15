@@ -128,7 +128,7 @@ li, .paragraphone{
     justify-content: space-around;
     background-color: #3882F6;
     min-width: 600px;
-    margin: 8px;
+    margin: 12px;
 }
 .buttontwo{
     background-color: #3882F6;
@@ -137,4 +137,11 @@ li, .paragraphone{
     margin:18px;
     min-width: 70px;
     align-items: center;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
