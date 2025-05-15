@@ -14,7 +14,7 @@ body{
 }
 .navbar{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height:20%;
     padding: 24px;
 }
@@ -27,7 +27,10 @@ ul{
     padding: 0;
     display: flex;
     gap:24px;
-    
+       
+}
+li{
+    gap:48px;
 }
 li, .paragraphone{
     font-size: 18px;
@@ -85,6 +88,7 @@ li, .paragraphone{
 }
 .card{
     flex:1;
+    max-width: 200px;
 
 }
 .card img{
@@ -97,6 +101,10 @@ li, .paragraphone{
 }
 .reviews{
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
     
 }
