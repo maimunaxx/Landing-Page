@@ -10,6 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     height:50vh;
+    flex:1;
 }
 .navbar{
     display: flex;
@@ -80,6 +81,7 @@ li, .paragraphone{
     padding: 12px;
     text-align: center;
     
+    
 }
 .card{
     flex:1;
@@ -92,4 +94,26 @@ li, .paragraphone{
 .card p{
     font-size: 18px;
     color: #1F2937;
+}
+.reviews{
+    background-color: #E5E7EB;
+
+    
+}
+.quotes{
+    font-size: 1.2rem;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    flex-wrap: wrap;
+    max-width: 600px;
+    text-align: center;
+    margin:0 auto;
+    padding: 18px;
+}
+.name{
+    color: #1F2937;
+    margin-left: 1050px;
+    font-size: 18px;
+    font-weight: 800;
 }
